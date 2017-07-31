@@ -2,6 +2,221 @@ header {
   border-bottom: solid 1px #c6c6c6;
 }
 
+h1, h2, p, button {
+  margin: 0 0 1rem 0;
+}
+
+h1{
+  font: 14px 'Lora',Helvetica Neue,Helvetica;
+}
+
+h2 {
+  font: 18px 'Raleway',Helvetica Neue,Helvetica;
+  margin: 0;
+}
+
+p {
+  font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
+}
+
 .header-items-logo {
-  margin: 16px 91px;
+  display: block;
+  margin: 1rem 0;
+}
+
+.header-items-logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.product-name {
+  margin: 1.5rem 0 1.5rem 1rem;
+}
+
+.product-gallery, .product-info, .product-info-main  {
+  display: flex;
+}
+
+.product-gallery {
+  margin: 1.5rem 0;
+}
+
+.product-info {
+  flex-direction: column;
+  border-bottom: solid 1px #c6c6c6;
+  margin: 0 1rem;
+}
+
+.product-info-main {
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.product-info-colour {
+  align-self: auto;
+}
+
+.product-info-colour-picker {
+  border-bottom: solid 1px #c6c6c6;
+  padding-bottom: 2rem;
+}
+
+.product-info-colour-picker button{
+  border: none;
+  border-radius: 100px;
+  padding: 20px;
+  margin: 0 16px 0 0;
+}
+
+.btn-colour-black {
+  background-color: #232122;
+}
+
+.btn-colour-honey {
+  background-color: #cfa880;
+}
+
+.product-delivery {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  border-bottom: solid 1px #c6c6c6;
+  margin: 2rem 1rem 0 1rem;
+}
+
+.product-delivery-size,
+.product-delivery-store {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.product-delivery-size,
+.product-delivery-store,
+.product-delivery-help {
+  padding: 0;
+}
+
+.product-delivery-size {
+  color: #fff;
+}
+
+.product-delivery-size button {
+  background-color: #232122;
+  color: #fff;
+  padding: 1rem 0;
+  margin: 0 0 1rem 0;
+  border: none;
+  border-radius: 2px;
+}
+
+.product-delivery-store button{
+  background-color: #fff;
+  color: #232122;
+  padding: 1rem 0;
+  margin: 0 0 1.5rem 0;
+  border: solid 1px #232122;
+  border-radius: 2px;
+}
+
+.product-delivery-help button {
+  margin: 0 0 3rem 0;
+}
+
+.product-delivery button {
+  text-transform: uppercase;
+  font: 12px 'Raleway',Helvetica Neue,Helvetica;
+  font-weight: 200;
+}
+
+.product-additional {
+  text-transform: uppercase;
+  margin: 2rem 1rem 3rem 1rem;
+}
+
+.product-additional h2{
+  font-size: 14px;
+}
+
+.product-additional img {
+  margin-right: 1rem;
+}
+
+.product-additional-description {
+  border-bottom: solid 1px #c6c6c6;
+  padding: 0 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-additional-shipping   {
+  border-bottom: solid 1px #c6c6c6;
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-recommendation {
+  margin: 0 1rem;
+}
+
+.product-recommendation-text,
+.product-more-text {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #171717;
+}
+
+.product-more-text {
+  margin-bottom: 24px;
+}
+
+.product-recommendation-text h2,
+.product-more-text h2{
+  font-size: 14px;
+}
+
+.product-recommendation-items {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.product-recommendation-items img {
+  height: 174px;
+  width: 130px;
+}
+
+.product-recommendation-items div {
+  flex-basis: 130px;
+}
+
+.product-recommendation-items h3 {
+  font: 16px 'Lora',Helvetica Neue,Helvetica;
+  margin: 12px 0 8px 0;
+}
+
+.product-recommendation-items h5 {
+  font: 12px 'Raleway',Helvetica Neue,Helvetica;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0 0 32px 0;
+}
+
+.product-more {
+  margin: 16px 16px 0 16px;
+}
+
+.product-more a {
+  font: 14px 'Lora',Helvetica Neue,Helvetica;
+  font-style: italic;
+  color: #232122;
+  text-decoration: none;
+  display: block;
+  margin: 0 0 16px 0;
+}
+
+.active-btn {
+  border: solid 1px #232122 !important;
 }
