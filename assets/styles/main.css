@@ -124,7 +124,7 @@ p {
 
 .product-delivery button {
   text-transform: uppercase;
-  font: 12px 'Raleway',Helvetica Neue,Helvetica;
+  font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
   font-weight: 200;
 }
 
@@ -134,7 +134,7 @@ p {
 }
 
 .product-additional h2{
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .product-additional img {
@@ -164,17 +164,17 @@ p {
   margin-bottom: 2rem;
   text-transform: uppercase;
   display: inline-block;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
   border-bottom: solid 1px #171717;
 }
 
 .product-more-text {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .product-recommendation-text h2,
 .product-more-text h2{
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .product-recommendation-items {
@@ -193,30 +193,71 @@ p {
 }
 
 .product-recommendation-items h3 {
-  font: 16px 'Lora',Helvetica Neue,Helvetica;
-  margin: 12px 0 8px 0;
+  font: 1rem 'Lora',Helvetica Neue,Helvetica;
+  margin: 0.75rem 0 0.5rem 0;
 }
 
 .product-recommendation-items h5 {
-  font: 12px 'Raleway',Helvetica Neue,Helvetica;
+  font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
   font-style: italic;
   font-weight: 100;
-  margin: 0 0 32px 0;
+  margin: 0 0 2rem 0;
+}
+
+.product-recommendation-items a {
+  text-decoration: none;
+  display: inline-block;
+  flex-basis: 130px;
+  color: inherit;
 }
 
 .product-more {
-  margin: 16px 16px 0 16px;
+  margin: 1rem 1rem 2rem 1rem;
 }
 
 .product-more a {
-  font: 14px 'Lora',Helvetica Neue,Helvetica;
+  font: 0.875rem 'Lora',Helvetica Neue,Helvetica;
   font-style: italic;
   color: #232122;
   text-decoration: none;
   display: block;
-  margin: 0 0 16px 0;
+  margin: 0 0 1rem 0;
 }
 
 .active-btn {
   border: solid 1px #232122 !important;
+}
+
+footer {
+  background-color: #f3f3f3;
+  padding-bottom: 2rem;
+}
+
+.options-country p,
+.options-language p{
+  color: #999;
+  margin: 0 0 0 1rem;
+}
+
+.options-country p {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.options-language p {
+  margin-bottom: 1.5rem;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contacts-text h2{
+  font: 1rem 'Raleway',Helvetica Neue,Helvetica;
+  font-weight: 700;
+}
+
+.contacts-findout h3{
+  font: 1rem 'Lora',Helvetica Neue,Helvetica;
+  font-style: italic;
 }
