@@ -6,30 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Long Cotton Gabardine Car Coat | Men - Burberry</title>
   <link href=
-  "https://fonts.googleapis.com/css?family=Lora:400,400i|Raleway:100i,200,400,700" rel="stylesheet">
+  "https://fonts.googleapis.com/css?family=Lora:400,400i|Raleway:100i,200,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href=
   "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.0.0-alpha6" >
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2">
   <link rel="stylesheet" href="assets/styles/main.css"/>
   <link rel="stylesheet" href="assets/styles/responsive.css">
 </head>
 <body>
   <header class="header">
-    <img src="assets/img/logo.svg" class="header-logo"/>
+    <a href="#"><img src="assets/img/logo.svg" class="header-logo"/></a>
   </header>
 
-  <section>
+  <section class="container">
     <div class="product">
-      <div class="product-name">
-        <h1 class="product-name-text">Long Cotton Gabardine Car Coat</h1>
-      </div>
-      <div class="row">
+      <h1 class="product-name">Long Cotton Gabardine Car Coat</h1>
+      <section class="product-info-wrapper">
         <div class="product-gallery col-md-7">
-          <img src="assets/img/img1.jpg" class="img1"/>
-          <img src="assets/img/img2.jpg" class="img2"/>
-
+          <img src="assets/img/img1@2x.jpg" class="product-gallery-img-tablet" />
+          <img src="assets/img/img1@2x.jpg" class="product-gallery-img-tablet" />
+          <img src="assets/img/img1@2x.jpg" class="product-gallery-img-tablet" />
         </div>
-        <div class="col-md-5">
+        <div class="product-order col-md-5">
           <div class="product-info">
             <div class="product-info-main">
               <h2 class="product-info-main-price">110 000 руб.</h2>
@@ -49,7 +47,8 @@
             <button class="product-delivery-help-btn" type="button">need size help?</button>
           </div>
         </div>
-      </div>
+      </section>
+      <hr class="hr" />
       <div class="product-additional">
         <h2 class="product-additional-description-text triangle">description</h2>
         <div class="product-additional-description-information">
@@ -70,34 +69,50 @@
             <li>Item 39428531</li>
           </ul>
         </div>
+        <hr class="hr" />
+        <div class="product-delivery_info">
+          <img class="product-delivery-package col-md-7" src="assets/img/delivery@2x.jpg" />
+          <section class="product-delivery_info-list col-md-5">
+            <h2 class="product-delivery_info-header">Delivery</h2>
+            <h3 class="product-delivery_info-statement">Free Next Day Delivery</h3>
+            <p class="product-delivery_info-description">Order before 7pm Monday to Thursday for delivery the next day</p>
+            <h3 class="product-delivery_info-statement">Collect-in-Store</h3>
+            <p class="product-delivery_info-description">Order online today and pick up your items in store as early as tomorrow</p>
+            <h3 class="product-delivery_info-statement">Free Returns</h3>
+            <p class="product-delivery_info-description">Enjoy free returns on your order</p>
+            <h3 class="product-delivery_info-statement">Free Gift Packaging</h3>
+            <p class="product-delivery_info-description">Discover our gift packaging, a gold lined box tied with a coloured ribbon</p>
+          </section>
+        </div>
         <div class="product-additional-shipping">
           <h2 class="product-additional-description-text">shipping & returns</h2>
           <img src="assets/img/triangle.svg" class="product-additional-description-img"/>
         </div>
+        <hr class="hr" />
       </div>
       <div class="product-recommendation">
         <h2 class="product-recommendation-header">we recommend</h2>
         <div class="product-recommendation-items">
-          <a href="#" class="product-recommendation-items-link"><div class="product-recommendation-item">
+          <div class="product-recommendation-item col-xs-6 col-md-3"><a href="#" class="product-recommendation-items-link">
             <img src="assets/img/EmroidedHooded.jpg" class="product-recommendation-items-img"/>
             <h3 class="product-recommendation-items-name">Emroided Hooded</h3>
             <h5 class="product-recommendation-items-price">27 000 руб</h5>
-          </div></a>
-          <a href="#" class="product-recommendation-items-link"><div class="product-recommendation-item">
-            <img src="assets/img/Jeans.jpg"/ class="product-recommendation-items-img">
+          </a></div>
+          <div class="product-recommendation-item col-xs-6 col-md-3"><a href="#" class="product-recommendation-items-link">
+            <img src="assets/img/Jeans.jpg" class="product-recommendation-items-img">
             <h3 class="product-recommendation-items-name">Relaxed Fit Stretch Jeans</h3>
             <h5 class="product-recommendation-items-price">22 500 руб</h5>
-          </div></a>
-          <a href="#" class="product-recommendation-items-link"><div class="product-recommendation-item">
+          </a></div>
+          <div class="product-recommendation-item col-xs-6 col-md-3"><a href="#" class="product-recommendation-items-link">
             <img src="assets/img/LeatherAndHouseCheck.jpg" class="product-recommendation-items-img"/>
             <h3 class="product-recommendation-items-name">Leather and House Check</h3>
             <h5 class="product-recommendation-items-price">120 000 руб</h5>
-          </div></a>
-          <a href="#" class="product-recommendation-items-link"><div class="product-recommendation-item">
+          </a></div>
+          <div class="product-recommendation-item col-xs-6 col-md-3"><a href="#" class="product-recommendation-items-link">
             <img src="assets/img/LeatherWingtipCheck.jpg" class="product-recommendation-items-img"/>
             <h3 class="product-recommendation-items-name">Leather Wingtip Check</h3>
             <h5 class="product-recommendation-items-price">46 000 руб</h5>
-          </div></a>
+          </a></div>
         </div>
       </div>
       <div class="product-more">
@@ -112,9 +127,44 @@
   </section>
 
   <footer class="footer">
+    <div class="footer-menu">
+      <nav class="footer-nav col-md-3">
+        <h2 class="footer-nav-header">Customer Service</h2>
+        <ul class="footer-nav-list">
+          <li><a class="footer-nav-link" href="#">Contact Us</a></li>
+          <li><a class="footer-nav-link" href="#">Payment</a></li>
+          <li><a class="footer-nav-link" href="#">Sgipping</a></li>
+          <li><a class="footer-nav-link" href="#">Returns</a></li>
+          <li><a class="footer-nav-link" href="#">Faqs</a></li>
+          <li><a class="footer-nav-link" href="#">Live Chat</a></li>
+          <li><a class="footer-nav-link" href="#">The Burrberry App</a></li>
+          <li><a class="footer-nav-link" href="#">Store Locator</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav col-md-3">
+        <h2 class="footer-nav-header">Our <Company></Company></h2>
+        <ul class="footer-nav-list">
+          <li><a class="footer-nav-link" href="#">Our History</a></li>
+          <li><a class="footer-nav-link" href="#">Burrberry Group Plc</a></li>
+          <li><a class="footer-nav-link" href="#">Careers</a></li>
+          <li><a class="footer-nav-link" href="#">Corporate Resposeability</a></li>
+          <li><a class="footer-nav-link" href="#">Site Map</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav col-md-3">
+        <h2 class="footer-nav-header">Customer Service</h2>
+        <ul class="footer-nav-list">
+          <li><a class="footer-nav-link" href="#">Terms & Conditions</a></li>
+          <li><a class="footer-nav-link" href="#">Privacy Policy</a></li>
+          <li><a class="footer-nav-link" href="#">Cookie Policy</a></li>
+          <li><a class="footer-nav-link" href="#">Accessibility Statement</a></li>
+          <li><a class="footer-nav-link" href="#">Japan Only - SCTL indications</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="options">
-      <button class="options-country-text" type="button">Shipping country: Russian Federation</button>
-      <button class="options-language-text" type="button">Language: English</button>
+      <button class="options-country" type="button">Shipping country: Russian Federation</button>
+      <button class="options-language" type="button">Language: English</button>
     </div>
     <div class="contacts">
       <h4 class="contacts-text-question">Need help?</h4>
