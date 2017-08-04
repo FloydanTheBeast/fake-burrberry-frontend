@@ -1,5 +1,12 @@
 @media screen and (min-width:48rem) {
-  div[class*="col"] {
-    margin: 0;
+  .img2 {
+    display: none;
   }
+
+  .img1 {
+    width: 27rem;
+    height: 36rem;
+    padding-left: 0.5rem;
+  }
+
 }
