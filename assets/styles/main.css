@@ -1,38 +1,36 @@
 .hr {
-    right: 50%;
-    left: 50%;
-    position: relative;
-    margin: 0;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    padding: 0;
-    width: 100vw;
-    height: 1px;
-    background-color: #c6c6c6;
-    border: none;
+  right: 50%;
+  left: 50%;
+  position: relative;
+  margin: 0;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: #c6c6c6;
+  border: none;
 }
 
 .header {
   border-bottom: solid 1px #C6C6C6;
 }
 
-.product-name,
-.product-info-colour-text,
-.product-info-main-price {
+.product-name, .product-info-colour-text, .product-info-main-price {
   margin: 0 0 1rem 0;
 }
 
 .product-name {
-  font: 1.25rem "Lora",Helvetica Neue,Helvetica;
+  font: 1.25rem "Lora", Helvetica Neue, Helvetica;
 }
 
 .product-info-main-price {
-  font: 1rem "Raleway",Helvetica Neue,Helvetica;
+  font: 1rem "Raleway", Helvetica Neue, Helvetica;
   margin: 0;
 }
 
 .product-info-colour-text {
-  font: 0.75rem "Raleway",Helvetica Neue,Helvetica;
+  font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
   line-height: 1rem;
 }
 
@@ -45,18 +43,15 @@
   margin: 1rem 0 1rem 0;
 }
 
-.product-gallery,
-.product-info,
-.product-info-main {
+.product-gallery, .product-info, .product-info-main {
   display: flex;
 }
 
 .product-gallery {
   margin: 0 0 1rem 0;
-  margin-left: -1rem;
   display: flex;
-  flex-direction: row;
-  overflow-y: auto;
+  flex-flow: row nowrap;
+  overflow-y: scroll;
 }
 
 .product-info {
@@ -83,7 +78,7 @@
 
 .product-info-main-code {
   margin: 0.2rem 0 0 0;
-  font: 0.75rem "Raleway",Helvetica Neue,Helvetica;
+  font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
 }
 
 .product-info-colour-picker-btn {
@@ -141,11 +136,9 @@
   text-align: left;
 }
 
-.product-delivery-size-btn,
-.product-delivery-store-btn,
-.product-delivery-help-btn {
+.product-delivery-size-btn, .product-delivery-store-btn, .product-delivery-help-btn {
   text-transform: uppercase;
-  font: 0.75rem "Raleway",Helvetica Neue,Helvetica;
+  font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
   font-weight: 200;
 }
 
@@ -155,7 +148,7 @@
 }
 
 .product-additional-description-text {
-  font: 1rem "Raleway",Helvetica Neue,Helvetica;
+  font: 1rem "Raleway", Helvetica Neue, Helvetica;
   line-height: 1.25;
   padding: 0 0 2rem 0;
 }
@@ -172,7 +165,6 @@
 }
 
 .product-additional-description-img {
-  margin-right: 1rem;
   height: 10px;
   margin-top: 1rem;
 }
@@ -187,20 +179,19 @@
   display: none;
 }
 
-.product-additional-shipping
-.product-additional-description-img {
+.product-additional-shipping .product-additional-description-img {
   transform: rotate(180deg);
 }
 
-.product-additional-description-information p{
+.product-additional-description-information p {
   margin: 0;
-  font: 0.875rem "Lora",Helvetica Neue,Helvetica;
+  font: 0.875rem "Lora", Helvetica Neue, Helvetica;
   text-transform: none;
   line-height: 1.5rem;
 }
 
 .product-additional-description-information ul {
-  font: 0.875rem "Lora",Helvetica Neue,Helvetica;
+  font: 0.875rem "Lora", Helvetica Neue, Helvetica;
   list-style: none;
   padding: 0;
   margin: 0 0 2rem 0;
@@ -213,8 +204,7 @@
   color: #161616;
 }
 
-.product-recommendation-header,
-.product-more-text {
+.product-recommendation-header, .product-more-text {
   text-transform: uppercase;
   display: inline-block;
 }
@@ -223,9 +213,8 @@
   margin-bottom: 1.5rem;
 }
 
-.product-recommendation-header,
-.product-more-text-header {
-  font: 1rem "Raleway",Helvetica Neue,Helvetica;
+.product-recommendation-header, .product-more-text-header {
+  font: 1rem "Raleway", Helvetica Neue, Helvetica;
   margin-bottom: 1.5rem;
 }
 
@@ -251,12 +240,12 @@
 }
 
 .product-recommendation-items-name {
-  font: 1rem "Lora",Helvetica Neue,Helvetica;
+  font: 1rem "Lora", Helvetica Neue, Helvetica;
   margin: 0.5rem 0 0.5rem 0;
 }
 
 .product-recommendation-items-price {
-  font: 0.75rem "Raleway",Helvetica Neue,Helvetica;
+  font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
   font-weight: 100;
   margin: 0 0 2rem 2px;
 }
@@ -291,7 +280,7 @@
 }
 
 .product-more-link {
-  font: 0.875rem "Lora",Helvetica Neue,Helvetica;
+  font: 0.875rem "Lora", Helvetica Neue, Helvetica;
   font-style: italic;
   color: #232122;
   text-decoration: none;
@@ -314,9 +303,8 @@
   align-items: flex-start;
 }
 
-.options-country,
-.options-language {
-  font: 0.75rem "Raleway",Helvetica Neue,Helvetica;
+.options-country, .options-language {
+  font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
   color: #999999;
   margin: 0 0 0 1rem;
   border: none;
@@ -340,14 +328,14 @@
 }
 
 .contacts-text-question {
-  font: 1rem "Raleway",Helvetica Neue,Helvetica;
+  font: 1rem "Raleway", Helvetica Neue, Helvetica;
   font-weight: 700;
   margin-bottom: 0.9375rem;
   margin-top: 0;
 }
 
 .contacts-findout-link {
-  font: 0.875rem "Lora",Helvetica Neue,Helvetica;
+  font: 0.875rem "Lora", Helvetica Neue, Helvetica;
   font-style: italic;
   text-decoration: none;
   color: #232122;
