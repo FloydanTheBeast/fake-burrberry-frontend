@@ -28,6 +28,9 @@
 	.contacts {
 		display: none;
 	}
+  .product-additional-shipping {
+    display: none;
+  }
 	.header-logo {
 		margin: 1.5rem auto;
 	}
@@ -77,12 +80,13 @@
 	.product-delivery_info {
 		display: flex;
 	}
-	.product-additional-shipping {
-		display: none;
-	}
+  .product-delivery-pic {
+    padding-left: 0;
+  }
 	.product-delivery-package {
-		height: 20.25rem;
-		padding: 0 0.5rem 0 0;
+    display: block;
+    width: 100%;
+    padding: 0 0.5rem 0 0;
 		margin: 0;
 	}
 	.product-delivery_info-list {
@@ -114,6 +118,10 @@
 	.product-recommendation-item:nth-child(1n) {
 		padding: 0;
 	}
+  .product-recommendation-items-link {
+    display: flex;
+    flex-flow: column nowrap;
+  }
 	.product-recommendation-item {
 		flex-basis: 23.5%;
 	}
