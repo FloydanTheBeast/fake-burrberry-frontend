@@ -1,195 +1,167 @@
 @media screen and (min-width:0) {
-  .product-gallery-img-tablet {
-    display: none;
-  }
-
-  .product-gallery-img-phone {
-    display: block;
-  }
-
-  .footer-menu {
-    display: none;
-  }
+	.product-gallery {
+		padding: 0;
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+	}
+	.product-gallery-img-tablet {
+		display: none;
+	}
+	.product-gallery-img-phone {
+		display: block;
+	}
+	.footer-menu {
+		display: none;
+	}
 }
 
 @media screen and (min-width:48rem) {
-  .hr {
-    display: none;
-  }
-
-  .img2 {
-    display: none;
-  }
-
-  .product-more {
-    display: none;
-  }
-
-  .contacts {
-    display: none;
-  }
-
-  .header-logo {
-    margin: 1.5rem auto;
-  }
-
-  .product-name {
-    font-size: 1.5rem;
-    line-height: 28px;
-    margin: 1.5rem 0;
-  }
-
-  .product-gallery {
-    display: flex;
-    flex-direction: row;
-    overflow-y: auto;
-    margin: 0;
-    padding: 0;
-    display: block;
-    padding-right: 0.5rem;
-  }
-
-  .product-gallery-img-tablet {
-    display: block;
-    width: 27rem;
-  }
-
-  .product-gallery-img-phone {
-    display: none;
-  }
-
-  .product-order {
-    padding-right: 0;
-    padding-left: 0.5625rem;
-  }
-
-  .product-info {
-    padding: 0;
-  }
-
-  .product-info-wrapper {
-    display: flex;
-  }
-
-  .product-delivery {
-    padding: 0;
-  }
-
-  .triangle::after {
-    background-size: 0;
-  }
-
-  .product-additional {
-    margin-bottom: 1.5rem;
-  }
-
-  .product-additional-description-information ul {
-    margin-bottom: 1.438rem;
-  }
-
-  .product-delivery_info {
-    display: flex;
-  }
-
-  .product-additional-shipping {
-    display: none;
-  }
-
-  .product-delivery-package {
-    height: 20.25rem;
-    padding: 0 0.5rem 0 0;
-    margin: 0;
-  }
-
-  .product-delivery_info-list {
-    padding-right: 0;
-    padding-left: 0.5625rem;
-  }
-
-  .product-delivery_info-header {
-    margin: 0 0 1rem 0;
-    font: 1rem 'Raleway',Helvetica Neue,Helvetica;
-  }
-
-  .product-delivery_info-statement {
-    margin: 0 0 0.25rem 0;
-    font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
-    font-weight: bold;
-    text-transform: none;
-  }
-
-  .product-delivery_info-description {
-    margin: 0 0 1.5rem 0;
-    font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
-    text-transform: none;
-    line-height: 1rem;
-  }
-
-  .product-recommendation {
-    margin-bottom: 4rem;
-  }
-
-  .product-recommendation-header {
-    margin-bottom: 1rem;
-  }
-
-  .product-recommendation-item:nth-child(1n) {
-    padding: 0;
-  }
-
-  .product-recommendation-item {
-    flex-basis: 23.5%;
-  }
-
-  .product-recommendation-items-price {
-    margin-bottom: 0;
-  }
-
-  .footer {
-
-  }
-
-  .footer-menu {
-    display: flex;
-  }
-
-  .footer-nav-header {
-    font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    padding-top: 2rem;
-    color: #171717;
-    text-transform: uppercase;
-  }
-
-  .footer-nav-list {
-    list-style: none;
-    padding: 0;
-  }
-
-  .footer-nav-link {
-    color: #999999;
-    font: 0.75rem 'Raleway',Helvetica Neue,Helvetica;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    padding-bottom: 0.75rem;
-  }
-
-  .options {
-    display: flex;
-    flex-flow: row nowrap;
-    padding-top: 0.75rem;
-  }
-
-  .options-country,
-  .options-language {
-    padding: 0;
-    margin: 0 1.5rem 0 0;
-  }
-
-  .options-country {
-    padding-left: 0.5rem;
-  }
-
+	.hr {
+		display: none;
+	}
+	.img2 {
+		display: none;
+	}
+	.product-more {
+		display: none;
+	}
+	.contacts {
+		display: none;
+	}
+	.header-logo {
+		margin: 1.5rem auto;
+	}
+	.product-name {
+		font-size: 1.5rem;
+		line-height: 28px;
+		margin: 1.5rem 0;
+	}
+	.product-gallery {
+		margin: 0;
+		padding: 0;
+		padding-right: 0.5rem;
+	}
+	.product-gallery-img-tablet {
+		display: block;
+		height: 36rem;
+	}
+	.product-gallery-img-phone {
+		display: none;
+	}
+	.product-order {
+		padding-right: 0;
+		padding-left: 0.5625rem;
+	}
+	.product-info {
+		padding: 0;
+	}
+	.product-info-wrapper {
+		display: flex;
+	}
+	.product-delivery {
+		padding: 0;
+	}
+	.triangle::after {
+		background-size: 0;
+	}
+	.product-additional {
+		margin: 1.5rem 0;
+	}
+	.product-additional-description-text {
+		margin: 0 0 1rem 0;
+		padding: 0;
+	}
+	.product-additional-description-information ul {
+		margin-bottom: 1.438rem;
+	}
+	.product-delivery_info {
+		display: flex;
+	}
+	.product-additional-shipping {
+		display: none;
+	}
+	.product-delivery-package {
+		height: 20.25rem;
+		padding: 0 0.5rem 0 0;
+		margin: 0;
+	}
+	.product-delivery_info-list {
+		padding-right: 0;
+		padding-left: 0.5625rem;
+	}
+	.product-delivery_info-header {
+		margin: 0 0 1rem 0;
+		font: 1rem "Raleway", Helvetica Neue, Helvetica;
+	}
+	.product-delivery_info-statement {
+		margin: 0 0 0.25rem 0;
+		font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
+		font-weight: bold;
+		text-transform: none;
+	}
+	.product-delivery_info-description {
+		margin: 0 0 1.5rem 0;
+		font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
+		text-transform: none;
+		line-height: 1rem;
+	}
+	.product-recommendation {
+		margin-bottom: 4rem;
+	}
+	.product-recommendation-header {
+		margin-bottom: 1rem;
+	}
+	.product-recommendation-item:nth-child(1n) {
+		padding: 0;
+	}
+	.product-recommendation-item {
+		flex-basis: 23.5%;
+	}
+	.product-recommendation-items-price {
+		margin-bottom: 0;
+	}
+	.footer-menu {
+		display: flex;
+	}
+	.footer-nav {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	.footer-nav-header {
+		font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
+		font-weight: bold;
+		margin-bottom: 1.063rem;
+		margin-top: 0;
+		padding-top: 2rem;
+		color: #171717;
+		text-transform: uppercase;
+	}
+	.footer-nav-list {
+		list-style: none;
+		padding: 0;
+	}
+	.footer-nav-link {
+		color: #999999;
+		font: 0.75rem "Raleway", Helvetica Neue, Helvetica;
+		font-weight: 600;
+		text-decoration: none;
+		display: inline-block;
+		padding-bottom: 0.8125rem;
+		line-height: 1.33;
+	}
+	.footer-nav-link:last-child {
+		padding-bottom: 2rem;
+	}
+	.options {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	.options-country,
+	.options-language {
+		padding: 0;
+		margin: 0 1.5rem 0 0;
+	}
+	.options-country {
+		padding-left: 0.5rem;
+	}
 }
