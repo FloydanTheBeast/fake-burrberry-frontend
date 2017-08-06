@@ -12,10 +12,6 @@
   border: none;
 }
 
-.header {
-  border-bottom: solid 1px #C6C6C6;
-}
-
 .product-name,
 .product-info-colour-text,
 .product-info-main-price {
@@ -38,7 +34,8 @@
 
 .header-logo {
   display: block;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
 }
 
 .product-name {
@@ -138,17 +135,9 @@
   background-color: #FFFFFF;
   color: #232122;
   padding: 1rem 0;
-  margin: 0 0 1.563rem 0;
+  margin: 0 0 1.5rem 0;
   border: solid 1px #232122;
   border-radius: 2px;
-}
-
-.product-delivery-help-btn {
-  margin: 0 0 3rem 0;
-  padding: 0;
-  border: none;
-  background-color: inherit;
-  text-align: left;
 }
 
 .product-delivery-size-btn,
@@ -159,13 +148,22 @@
   font-weight: 200;
 }
 
+.product-delivery-help-btn {
+  margin: 0 0 3rem 0;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  text-align: left;
+  line-height: 1.33333333;
+}
+
 .product-additional {
   text-transform: uppercase;
-  margin: 0 0 calc(3rem - 1px) 0;
+  margin: 0 0 3rem 0;
 }
 
 .product-additional-description-text {
-  padding-top: calc(2rem + 1px);
+  padding-top: 2rem;
 }
 
 .product-additional-shipping {
@@ -287,6 +285,7 @@
   margin-top: 0;
   padding-bottom: 0.5rem;
   border-bottom: solid 1px #171717;
+  line-height: 1.18;
 }
 
 .product-more {
@@ -369,7 +368,8 @@
     display: none;
   }
   .header-logo {
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    padding: 1.5rem 3rem;
   }
   .product-name {
     font-size: 1.5rem;
