@@ -388,10 +388,6 @@
   .product-gallery-img-phone {
     display: none;
   }
-  .product-order {
-    padding-right: 0;
-    padding-left: 0.5625rem;
-  }
   .product-info {
     padding: 0;
   }
@@ -422,10 +418,6 @@
     width: 100%;
     padding: 0 0.5rem 0 0;
     margin: 0;
-  }
-  .product-delivery_info-list {
-    padding-right: 0;
-    padding-left: 0.5625rem;
   }
   .product-delivery_info-header {
     margin: 0 0 1rem 0;
